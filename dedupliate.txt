@@ -1,0 +1,18 @@
+<!DOCTYPE html> 
+<html> 
+<body> 
+    <script> 
+        var array = window.prompt("enter text");
+        var x=array.split(" ");
+        var outputArray = []; 
+          
+        function deduplicate(arr) { 
+            let outputArray = Array.from(new Set(arr)) 
+            return outputArray 
+        } 
+          
+        document.write(deduplicate(x)); 
+    </script> 
+</body> 
+  
+</html>          
